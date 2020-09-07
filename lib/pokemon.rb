@@ -3,6 +3,8 @@ class Pokemon
     attr_reader :id, :db
     attr_accessor :name, :type
 
+    #look in schema migration first. no code will pass without that being correct.
+
     def initialize (id: , name: ,type: , db:)
 
         @id = id
